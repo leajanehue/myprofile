@@ -1,0 +1,141 @@
+/*Colors and fonts*/
+
+body{
+
+	background: rgb(255, 255, 255);
+	color: rgb(82, 94, 127);
+	font-family: "Avenir Next",sans-serif;
+	font-size: 0.9rem;
+    font-weight: 300;
+    line-height: 1.5;
+
+}
+
+
+h1,h2, a {
+	 font-family: "Linotype Didot",serif;
+}
+h1{
+  color :rgb(217, 164, 148);
+  font-size: 	32px;
+  font-weight: bolder;
+}
+h2{
+  color: rgb(252, 142, 138);
+  font-size: 24px;
+  font-weight: 100;
+  text-align: center;
+}
+
+a{
+	text-decoration: none;
+	color: #A1CCA5;
+	font-weight: 700;
+	font-size: 17px;
+	transition: color 0.3s ease;
+}
+
+
+
+/*Custom design with class*/
+
+.container{
+	width: 700px;
+	margin: 10px auto;
+}
+
+.card-pink{
+	background: rgb(255, 240, 234);
+	border: 1px solid grey;
+	box-shadow: 2px 2px 15px grey;
+    border-radius: 4px;
+    padding: 40px;
+    margin:40px 10px;
+
+}
+
+.card-transparent{
+	margin: 20px auto;
+	padding: 10px;
+}
+
+#img-circle{
+    border-radius: 15px
+}	
+
+.btn-pink{
+	background-color: #A1CCA5;
+	text-decoration: none;
+	color: rgb(255,255,255);
+	padding: 5px;
+	border-radius: 4px;
+	font-weight: 700;
+	font-size: 17px;
+	transition: color 0.5s ease;
+	transition: background-color 0.5s ease;
+}
+
+.btn-pink:hover {
+	background-color: rgb(255,255,255);
+	color:rgb(252, 142, 138);
+	transition: color 0.5s ease;
+	transition: background-color 0.5s ease;
+	
+}
+
+.list-inline{
+	list-style: none;
+	padding-left: 0px;
+
+}
+.list-inline li{
+	display: inline;
+	padding: 10px;
+}
+
+.list-inline i{
+	font-size: 40px;
+	color: #A1CCA5;
+	transition: color 0.5s ease;
+}
+
+.list-inline i:hover{
+	color: rgb(252, 142, 138);
+	background-color: rgb(255, 240, 234);
+	transition: color 0.5s ease;
+}
+
+
+
+#logoessec{
+	box-shadow: 2px 2px 3px black;
+}
+
+#introduction p{
+	margin-top: 40px;
+	margin-bottom: 20px;
+}
+
+
+
+
+}
+@media(max-width: 760px){
+	.container{
+		width: 600px;
+	}
+}
+@media(max-width: 500px){
+	.container{
+		width: 400px;
+	}
+}
+
+div{
+	margin: 80px;
+	padding:40px;
+	
+	text-align: center;
+}
+
+
